@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+html {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+.main{
+    display: flex;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+
+}
+
+#nav {
+    display: inline-block;
+    
+
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    position: relative;
+}
+
+
+#nav li {
+    display: inline-block;
+    
+
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 34px;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 16px;
+    line-height: 38px;
+}
+
+#nav .nav-arrow-dow {
+    font-size: 14px;
+}
+
+.personal-img{
+    background-image: url("https://scontent.fhan3-4.fna.fbcdn.net/v/t1.15752-9/119426349_363496171491659_7639723958672316989_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=ae9488&_nc_ohc=4NDT111MYwgAX_NswrF&_nc_ht=scontent.fhan3-4.fna&oh=0fa16cf50b7dac0aba7a9e16c06de068&oe=61646A2C");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 540px;
+    background-color: #ccc;
+    margin-top: 100px;
+
+}
+
+
+.container {
+    width: 875px;
+    height: 540px;
+    background-color: #ccc;
+    margin-top: 100px;
+    font-size: 22px;
+    
+    
+}
+
+.container__info-list {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    transform: translateX(-50%)
+}
+
+
+.line{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    list-style: none;
+}
+
+.line__text{
+    font-weight: 500;
+}
+
+
+.line__text:hover,
+.icon__link:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.section-left, .section-right{
+    width: 50%;
+}
+
+.icon {
+    display: flex;
+    list-style: none;
+    margin-top: 32px;
+    
+    
+}
+
+.icon__link{
+    margin: 0 24px;
+    font-size: 46px;
+
+}
+
+
+
+
+
